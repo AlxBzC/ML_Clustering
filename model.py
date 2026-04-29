@@ -8,7 +8,7 @@ def get_resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 # CARGA DEL MODELO
-path = get_resource_path('kmean_pipeline')
+path = get_resource_path('mejor_modelo_madres')
 model = load_model(path)
 
 # FUNCIÓN DE INFERENCIA
