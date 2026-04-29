@@ -99,7 +99,7 @@ def generar_mapa_predominancia(df, geojson_data):
 # --- CABECERA ---
 st.title("Identificación de perfiles y condiciones de vida de las madres y la salud neonatal en Colombia")
 
-ruta_imagen = r"C:\Users\carol\OneDrive\Documentos\UAO\Aprendizaje Automatico\Modulo2\proyecto_madres\imagen.png"
+ruta_imagen = "imagen.png"
 if os.path.exists(ruta_imagen):
     st.image(ruta_imagen, use_container_width=True)
 
